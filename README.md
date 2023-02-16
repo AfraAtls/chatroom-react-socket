@@ -2,7 +2,7 @@
 
 The Chatroom project is a real-time chat platform that allows multiple users to connect to the same room and exchange messages. The chatroom is built using Web Sockets, which enables near-instant communication between connected clients.
 
-![screenshot](./src/assets/screenshot.png)
+![screenshot](client/src/assets/screenshot.png)
 
 ## Running the Project
 
