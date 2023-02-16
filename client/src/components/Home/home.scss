@@ -1,0 +1,60 @@
+  .home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: calc(100vh - 3em);
+    justify-content: center;
+  }
+
+  .home-container input, select {
+    width: 13em;
+    height: 2.5em;
+    margin: 7px;
+    border: 2px solid #d98c8c;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+  }
+
+  .home-container select {
+    height: 3.2em;
+  }
+
+  .home-container .display-form, .join-button {
+    width: 14em;
+    height: 3.5em;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 16px;
+    background: #00b386;
+    color: #fff;
+    cursor: pointer;
+  }
+
+  .home-container .join-button {
+    background: #d98c8c;
+    width: 50px;
+    height: 3.5em;
+  }
+  .home-container .join-button:hover {
+    background-color: #c65353;
+  }
+  .home-container .display-form:hover {
+    background-color: #008060;
+  }
+
+.home-container .join-button, .home-container .display-form {
+  transition: all 0.3s ease-in-out;
+}
+
+.home-container .join-button:hover, .home-container .display-form:hover {
+  transform: scale(1.1);
+}
+.home-container .join-button:hover {
+  box-shadow: 2px 2px 10px #c65353;
+}
+
+.home-container .display-form:hover {
+  box-shadow: 2px 2px 10px #008060;
+}

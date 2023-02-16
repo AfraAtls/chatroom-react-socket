@@ -1,0 +1,37 @@
+.chat-window .chat-header {
+    height: 3.5em;
+    border-radius: 6px 6px 0 0;
+    background: #263238;
+    cursor: pointer;
+    padding: 0 1em 0 2em;
+    color: #fff;
+    font-weight: 700;
+    line-height: 45px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    .point {
+      width: 15px;
+      height: 15px;
+      border-radius: 50%;
+      margin-right: 8px;
+    }
+    .red-point {
+      background-color: #ff3a20;
+    }
+    .yellow-point {
+      background-color: #feb707;
+    }
+    .green-point {
+      background-color: #13c41e;
+    }
+    .theme-button {
+      position: absolute;
+      right: 10px;
+     color: red;
+     background-color: transparent;
+     font-size: 1.5em;
+     border: none;
+     cursor: pointer;
+    }
+  }
